@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #10131a;
+    color: #eeeeee;
+}
+ 
+header {
+    background-color: #b51f32;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+ 
+header h1 {
+    font-family: Impact, "Arial Black", sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+ 
+header p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+}
+ 
+nav {
+    background-color: #202632;
+    text-align: center;
+    padding: 15px;
+}
+ 
+nav a {
+    color: white;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #b51f32;
+    padding: 10px 16px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+ 
+nav a:hover, .button:hover {
+    background-color: #e33b4f;
+}
+ 
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 25px auto;
+    background-color: #1b202b;
+    padding: 25px;
+    border-radius: 10px;
+}
+ 
+h2 {
+    color: #ff596b;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+ 
+h3 {
+    color: #ffb4bc;
+    font-family: Georgia, serif;
+}
+ 
+p, li, td, th, label {
+    font-size: 16px;
+    line-height: 1.6;
+}
+ 
+.hero {
+    width: 100%;
+    border-radius: 8px;
+}
+ 
+.car {
+    width: 100%;
+    max-width: 650px;
+    border-radius: 8px;
+}
+ 
+.card {
+    background-color: #252c39;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #b51f32;
+    border-radius: 6px;
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+ 
+th, td {
+    border: 1px solid #555d6b;
+    padding: 10px;
+    text-align: left;
+}
+ 
+th {
+    background-color: #b51f32;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+ 
+tr:nth-child(even) {
+    background-color: #252c39;
+}
+ 
+.button {
+    display: inline-block;
+    background-color: #b51f32;
+    color: white;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+ 
+summary {
+    color: #ffb4bc;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    cursor: pointer;
+}
+ 
+footer {
+    text-align: center;
+    color: #b9bec8;
+    padding: 20px;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+ 
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+        padding: 15px;
+    }
+ 
+    nav a {
+        margin: 4px 2px;
+        padding: 9px;
+    }
+ 
+    header h1 {
+        font-size: 30px;
+    }
+}
